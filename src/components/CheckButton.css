@@ -1,0 +1,29 @@
+.CheckButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+  background-color: #eee;
+  color: #666;
+  cursor: pointer;
+}
+.CheckButton:hover {
+  background-color: #ddd;
+  color: #444;
+}
+
+.CheckButton-active {
+  background-color: #576;
+  border-color: #576;
+  color: white;
+}
+.CheckButton-active:hover {
+  background-color: #8a9;
+  border-color: #8a9;
+  color: white;
+}
