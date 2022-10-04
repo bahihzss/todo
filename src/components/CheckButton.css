@@ -9,12 +9,12 @@
   border-radius: 50%;
   transition: all 200ms ease-in-out;
   background-color: #eee;
-  color: #666;
+  color: #eee;
   cursor: pointer;
 }
 .CheckButton:hover {
   background-color: #ddd;
-  color: #444;
+  color: #aaa;
 }
 
 .CheckButton-active {
